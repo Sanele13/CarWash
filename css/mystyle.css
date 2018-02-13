@@ -1,0 +1,86 @@
+.header{
+	background-color: #2177f3;
+	height: 150px;
+	
+}
+.login>form>input:hover{
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+}
+.body-container{
+	font-size: 20px; 
+	position: relative;
+	min-height: 100%;
+}
+
+.header>.login{
+	padding-top: 5px;
+	position: relative;
+    left: 80%;
+    width: 200px;
+}
+.login-button{
+	color: white;
+	background-color: #265f9e;
+	font-weight: bold;
+	width: 40%;
+	height: 30px;
+    margin: 10px 0px 10px 0px;
+    
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 0px 0px 0px 0px;
+
+}
+/*navigation menu*/
+.nav-menu-container{
+	display: block;
+    margin-top: -15px;
+}
+.nav-menu-item{
+    display: inline-block;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 20px 10px 20px;
+    background-color: #265f9e;
+    border-radius: 5px;
+}
+.nav-menu-item>span>a{
+	color: white;
+	text-decoration: none;
+}
+.nav-menu-item>span>a:hover{
+	font-weight: bold;
+}
+.nav-menu{
+    background-color: #2177f3;
+    padding: 15px;
+}
+
+/*Banner*/
+.banner-container{
+	text-align: center;
+}
+
+/*Container for the profile*/
+.container-in-body{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    background-color: white;
+    box-shadow: 0px 5px 30px #444444;
+    min-height: 700px;
+    
+}
+/*footer*/
+.footer{
+	
+    background-color: black;
+    color: white;
+    height: 200px
+}
